@@ -30,7 +30,7 @@
       ],
       "cta": "Ask about BIM automation",
       "exampleScope": "Automate one clearly defined BIM task and deliver a reusable, tested workflow.",
-      "examplesCount": 19,
+      "examplesCount": 18,
       "offeringsCount": 13
     },
     {
@@ -61,7 +61,7 @@
       ],
       "cta": "Discuss a generative project",
       "exampleScope": "Build one design generator that converts your constraints into comparable options.",
-      "examplesCount": 22,
+      "examplesCount": 20,
       "offeringsCount": 14
     },
     {
@@ -123,7 +123,7 @@
       ],
       "cta": "Discuss fabrication",
       "exampleScope": "Rationalize one complex wall, surface or installation into repeatable parts.",
-      "examplesCount": 42,
+      "examplesCount": 40,
       "offeringsCount": 14
     },
     {
@@ -154,7 +154,7 @@
       ],
       "cta": "Discuss site feasibility",
       "exampleScope": "Build a parcel or zoning explorer to expose the key constraints for a chosen site.",
-      "examplesCount": 8,
+      "examplesCount": 7,
       "offeringsCount": 6
     },
     {
@@ -194,13 +194,13 @@
       "id": "app-004",
       "service": "bim",
       "title": "MEMO BIM Sprint",
-      "summary": "Fixed-scope BIM automation offering with defined acceptance tests, deliverables, client intake and handoff.",
+      "summary": "Fixed-scope BIM automation offering with defined acceptance tests, deliverables, client intake and handoff. A fixed-scope offering focused on automating one repetitive BIM task with explicit requirements, tests and reusable handoff.",
       "level": "research",
       "status": "Exploration",
       "link": null,
       "credit": null,
       "images": [],
-      "detail": "",
+      "detail": "Revit/Dynamo/Python routines; sample validation; source files; handoff",
       "rank": 0
     },
     {
@@ -241,19 +241,6 @@
       "images": [],
       "detail": "",
       "rank": 3
-    },
-    {
-      "id": "study-006",
-      "service": "bim",
-      "title": "BIM Automation Sprint",
-      "summary": "A fixed-scope offering focused on automating one repetitive BIM task with explicit requirements, tests and reusable handoff.",
-      "level": "prototype",
-      "status": "Design prototype",
-      "link": "https://lovable.dev/projects/41a7e69a-fe17-4f02-ac8d-56daca80f077",
-      "credit": null,
-      "images": [],
-      "detail": "Revit/Dynamo/Python routines; sample validation; source files; handoff",
-      "rank": 4
     },
     {
       "id": "study-012",
@@ -1026,26 +1013,13 @@
       "id": "study-017",
       "service": "fabrication",
       "title": "Hoboken U-Bar Resilience Playground",
-      "summary": "An accessible-to-evaluate public-art design concept using a linear gradient of freestanding U-shaped play structures and a final challenge element.",
+      "summary": "An accessible-to-evaluate public-art design concept using a linear gradient of freestanding U-shaped play structures and a final challenge element. Parametric U-frame public-art planning tool with editable frame counts, dimensions, thickness and arrangement.",
       "level": "proposal",
       "status": "Design proposal",
       "link": null,
       "credit": null,
       "images": [],
       "detail": "Parametric module geometry; site arrangements; conceptual anchorage and landing studies",
-      "rank": 999
-    },
-    {
-      "id": "study-020",
-      "service": "fabrication",
-      "title": "Jamestown Main Street Viaduct",
-      "summary": "A placemaking proposal investigating lighting, accessible seating, art and pollinator landscape in a viaduct context.",
-      "level": "proposal",
-      "status": "Design proposal",
-      "link": null,
-      "credit": null,
-      "images": [],
-      "detail": "Site-based 3D proposal; adjustable geometry; spatial program research",
       "rank": 999
     },
     {
@@ -1229,19 +1203,6 @@
       "rank": 999
     },
     {
-      "id": "app-001",
-      "service": "fabrication",
-      "title": "Passport Line Studio",
-      "summary": "Parametric U-frame public-art planning tool with editable frame counts, dimensions, thickness and arrangement.",
-      "level": "research",
-      "status": "Exploration",
-      "link": null,
-      "credit": null,
-      "images": [],
-      "detail": "",
-      "rank": 999
-    },
-    {
       "id": "app-012",
       "service": "fabrication",
       "title": "Pattern Forge",
@@ -1310,20 +1271,20 @@
       "id": "app-002",
       "service": "fabrication",
       "title": "Two Banks, One Current",
-      "summary": "Interactive 3D placemaking proposal for Jamestown Main Street Viaduct: lighting, accessible amenities, art and landscape.",
+      "summary": "Interactive 3D placemaking proposal for Jamestown Main Street Viaduct: lighting, accessible amenities, art and landscape. A placemaking proposal investigating lighting, accessible seating, art and pollinator landscape in a viaduct context.",
       "level": "research",
       "status": "Exploration",
       "link": null,
       "credit": null,
       "images": [],
-      "detail": "",
+      "detail": "Site-based 3D proposal; adjustable geometry; spatial program research",
       "rank": 999
     },
     {
       "id": "study-001",
       "service": "generative",
       "title": "American Superblock",
-      "summary": "A 660 × 660 ft superblock exploration combining four courtyard buildings, triplex housing, upper apartments, a valley, section controls and discipline-specific studies.",
+      "summary": "A 660 × 660 ft superblock exploration combining four courtyard buildings, triplex housing, upper apartments, a valley, section controls and discipline-specific studies. A browser-based American Superblock exploration with Life Lab and social/spatial scenario studies.",
       "level": "prototype",
       "status": "Design prototype",
       "link": "https://memortal.github.io/American-Superblock/",
@@ -1331,19 +1292,6 @@
       "images": [],
       "detail": "Parametric 3D model; housing counts; model inspection; drawing studies; IFC export",
       "rank": 0
-    },
-    {
-      "id": "app-003",
-      "service": "generative",
-      "title": "MEMO American Superblock",
-      "summary": "A Lovable-hosted migration of the American Superblock model; Life Lab/Social Evolution and architectural geometry.",
-      "level": "research",
-      "status": "Exploration",
-      "link": "https://github.com/Memortal/American-Superblock",
-      "credit": null,
-      "images": [],
-      "detail": "",
-      "rank": 1
     },
     {
       "id": "study-003",
@@ -1362,22 +1310,9 @@
       "id": "app-029",
       "service": "generative",
       "title": "Tower Forge",
-      "summary": "Working repository-connected tower configurator with multiple parametric algorithms and IFC export claims.",
+      "summary": "Working repository-connected tower configurator with multiple parametric algorithms and IFC export claims. Parametric tower families exploring setbacks, shifts, rotations, erosion, facades and editable component metadata.",
       "level": "prototype",
       "status": "Interactive prototype",
-      "link": "https://github.com/Memortal/tower-forge",
-      "credit": null,
-      "images": [],
-      "detail": "",
-      "rank": 3
-    },
-    {
-      "id": "study-015",
-      "service": "generative",
-      "title": "Tower Forge",
-      "summary": "Parametric tower families exploring setbacks, shifts, rotations, erosion, facades and editable component metadata.",
-      "level": "prototype",
-      "status": "Design prototype",
       "link": "https://github.com/Memortal/tower-forge",
       "credit": null,
       "images": [],
@@ -1505,7 +1440,7 @@
       "id": "app-009",
       "service": "generative",
       "title": "Leaf Residences",
-      "summary": "Leaf-shaped residential unit floor plan study; IFC export described by Lovable.",
+      "summary": "Leaf-shaped residential unit floor plan study; IFC export investigated as part of the tool.",
       "level": "research",
       "status": "Exploration",
       "link": null,
@@ -1760,7 +1695,7 @@
     {
       "id": "app-052",
       "service": "intelligence",
-      "title": "GPT-5 architectural agent dashboard",
+      "title": "Architectural AI agent dashboard",
       "summary": "Chat-directed architectural generation; true open-ended modeling not verified.",
       "level": "research",
       "status": "Exploration",
@@ -1881,13 +1816,13 @@
       "id": "app-038",
       "service": "spatial",
       "title": "Zoning Atlas",
-      "summary": "Zoning Atlas proposal exploring machine-readable zoning rules, setbacks, FAR and parking; code examples had corrections.",
+      "summary": "Zoning Atlas proposal exploring machine-readable zoning rules, setbacks, FAR and parking; code examples had corrections. A zoning-oriented interface for reading parcel constraints, setbacks, FAR, parking and special rules alongside design alternatives.",
       "level": "prototype",
       "status": "Interactive prototype",
       "link": null,
       "credit": null,
       "images": [],
-      "detail": "",
+      "detail": "Map views; rule extracts; parcel overlays; decision summaries",
       "rank": 0
     },
     {
@@ -1940,19 +1875,6 @@
       "credit": null,
       "images": [],
       "detail": "",
-      "rank": 999
-    },
-    {
-      "id": "study-024",
-      "service": "spatial",
-      "title": "Spatial Zoning & GIS Atlas",
-      "summary": "A zoning-oriented interface for reading parcel constraints, setbacks, FAR, parking and special rules alongside design alternatives.",
-      "level": "prototype",
-      "status": "Design prototype",
-      "link": null,
-      "credit": null,
-      "images": [],
-      "detail": "Map views; rule extracts; parcel overlays; decision summaries",
       "rank": 999
     },
     {
@@ -2332,7 +2254,7 @@
       "title": "AI workflow integration for AEC teams",
       "problem": "staff use AI tools without reusable geometry/model/data rules.",
       "deliverable": "scoped assistive workflow, data interface, prompts/tool contracts, validation gates, human approval and handoff documentation.",
-      "evidence": "PRISM decision-support prototype, GPT/BIM experiments, design-system development and custom automation practice.",
+      "evidence": "PRISM decision-support prototype and intelligent BIM experiments, design-system development and custom automation practice.",
       "status": "P/D"
     },
     {
@@ -2602,7 +2524,7 @@
       "title": "Concept-to-Façade Generative Pipeline R&D",
       "problem": "Prototype text-to-concept-to-geometric fabrication studies with a clear evaluation loop.",
       "deliverable": "Feasibility demonstrator and tested module interfaces; no blanket model accuracy promise.",
-      "evidence": "Concept-to-Facade Lovable study, Dragon Skin, brick pattern prototype.",
+      "evidence": "Concept-to-facade geometry study, Dragon Skin, brick pattern prototype.",
       "status": "D/R"
     },
     {
