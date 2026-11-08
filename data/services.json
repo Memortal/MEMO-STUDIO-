@@ -1,0 +1,614 @@
+{
+  "title": "MEMO Studio Service Capability Library",
+  "updated": "2026-11-08",
+  "source": "MEMO Studio GPT research plus verified Lovable project records",
+  "status_guide": {
+    "P": "professional or built precedent",
+    "D": "demonstrated prototype",
+    "R": "research or proposed service"
+  },
+  "categories": [
+    "BIM Automation & Model Intelligence",
+    "Generative Architecture, Housing & Planning",
+    "Custom AEC Software & Interactive 3D",
+    "Computational Fabrication, Installations & Product Systems",
+    "Spatial Data, Mapping & Analytical Experiences",
+    "AI Design Systems, Research & Training"
+  ],
+  "services": [
+    {
+      "id": "A1",
+      "category": "BIM Automation & Model Intelligence",
+      "title": "Revit and Dynamo automation",
+      "status": "P",
+      "problem": "BIM teams repeatedly rename, place, tag, schedule, inspect, and export the same information.",
+      "deliverable": "customized Dynamo/Python/Revit automation routines; documented inputs/outputs; error handling; sample project acceptance tests; source/handoff notes.",
+      "evidence": "EnTech/JFK Terminal One coordination; Stantec tooling; HGA CAD/Revit data workflows; repeated professional Dynamo/Grasshopper development."
+    },
+    {
+      "id": "A2",
+      "category": "BIM Automation & Model Intelligence",
+      "title": "BIM QA/QC and coordination dashboards",
+      "status": "P",
+      "problem": "inconsistent naming, mismatched model properties, missing requirements, costly manual checks.",
+      "deliverable": "repeatable model checking procedures, issue reports, dashboards and QA checklists, with clear rules for false positives and human review.",
+      "evidence": "professional coordination on 12 multidisciplinary JFK Revit models and Dynamo QA/QC. Reported outcomes in CVs require validation before publishing a numerical improvement."
+    },
+    {
+      "id": "A3",
+      "category": "BIM Automation & Model Intelligence",
+      "title": "IFC and openBIM model inspection",
+      "status": "P/D",
+      "problem": "models are trapped in authoring tools or hard to inspect across firms.",
+      "deliverable": "IFC import/inspection workflow, model browser, property/quantity explorer, and structured exports.",
+      "evidence": "IFC generation/export work, browser BIM explorations, IFC Tower Fragment Modeler prototype, American Superblock IFC outputs, That Open/Fragments experimentation."
+    },
+    {
+      "id": "A4",
+      "category": "BIM Automation & Model Intelligence",
+      "title": "IDS-based BIM validation tools",
+      "status": "D",
+      "problem": "project teams need repeatable checks against machine-readable information requirements.",
+      "deliverable": "IFC/IDS rule dashboard, multi-IDS loading, per-rule pass/fail and conformance summaries, exportable issues.",
+      "evidence": "September 2026 IFC Validation Webapp demo described as using OpenBIM Components/Fragments, parallel rule execution and multiple IDS files. No formal certification should be implied."
+    },
+    {
+      "id": "A5",
+      "category": "BIM Automation & Model Intelligence",
+      "title": "Model-version comparison and progress intelligence",
+      "status": "D",
+      "problem": "clients struggle to tell what changed between design submissions.",
+      "deliverable": "compare two model snapshots, inspect element/category changes, provide a change register and progress dashboard.",
+      "evidence": "BIMSpect design-progress intelligence prototype, developed around IFC/viewer workflows in 2026."
+    },
+    {
+      "id": "A6",
+      "category": "BIM Automation & Model Intelligence",
+      "title": "Automated drawing, sheet and BIM reporting tools",
+      "status": "P/D",
+      "problem": "repetitive schedules, annotations, sheets, exports and model reports.",
+      "deliverable": "scheduled drawing/report generation, door/window/room schedules, QA exports and documented naming conventions.",
+      "evidence": "professional Dynamo and shop-drawing scripting; American Superblock's experimental drawing, schedule and specification workspaces. Outputs must be checked against office and project standards."
+    },
+    {
+      "id": "A7",
+      "category": "BIM Automation & Model Intelligence",
+      "title": "BIM data extraction and integration",
+      "status": "P/D",
+      "problem": "model data is available but not actionable outside Revit/IFC.",
+      "deliverable": "CSV/JSON/IFC-based data pipelines, filters, dashboards, external database integration, and traceable element IDs.",
+      "evidence": "HGA campus work, IFC experiments, React/TypeScript development; PRISM-era BIM decision-support research."
+    },
+    {
+      "id": "A8",
+      "category": "BIM Automation & Model Intelligence",
+      "title": "Project-specific coordination workflows",
+      "status": "P",
+      "problem": "distributed disciplines cannot consistently exchange or review models.",
+      "deliverable": "a coordination rulebook, issue workflow, automated model intake/checks, reporting templates and operator training.",
+      "evidence": "VDC/BIM roles at EnTech and earlier multidisciplinary design positions."
+    },
+    {
+      "id": "B1",
+      "category": "Generative Architecture, Housing & Planning",
+      "title": "Rapid parametric massing and site-option generation",
+      "status": "P/D",
+      "problem": "feasibility studies are slow and hard to compare when site constraints change.",
+      "deliverable": "editable massing tool with setbacks, building footprints, levels, approximate GFA, housing mix and scenario comparison.",
+      "evidence": "professional automated master-planning research at Stantec; City Maker and parcel tools; American Superblock prototype. Historic AMP graphics have intentionally been excluded from the recent public GitHub portfolio—do not restore them without permission."
+    },
+    {
+      "id": "B2",
+      "category": "Generative Architecture, Housing & Planning",
+      "title": "Rule-based housing/unit generators",
+      "status": "D/R",
+      "problem": "rigid rectangular subdividers poorly capture useful interlocking plans, daylight, circulation and adjacency.",
+      "deliverable": "custom room-first layout solver, unit mix/area controls, interactive SVG, adjacency graph, constraint diagnostics.",
+      "evidence": "the November 2026 Interlock Plan Solver specification and user-supplied unit references, plus prior double-loaded-corridor logic. Treat the latest room-first algorithm as **development**, not proven production software."
+    },
+    {
+      "id": "B3",
+      "category": "Generative Architecture, Housing & Planning",
+      "title": "Concept-to-BIM parametric building prototype",
+      "status": "D",
+      "problem": "geometry and BIM semantics drift apart.",
+      "deliverable": "editable buildings with spaces, walls, slabs, cores, openings, element properties, level hierarchy, and experimental IFC/JSON export.",
+      "evidence": "American Superblock; nested planner; Parametric Tower Designer; IFC export routines. Review geometry and export compatibility case-by-case."
+    },
+    {
+      "id": "B4",
+      "category": "Generative Architecture, Housing & Planning",
+      "title": "Computational façade, envelope and tower systems",
+      "status": "P/D",
+      "problem": "manually modeling unique bays, façade variation, setbacks and patterned assemblies wastes time.",
+      "deliverable": "selectable algorithms with constraint-driven generation, customizable components, live 3D review and fabrication/BIM metadata.",
+      "evidence": "Tower Forge (ten tower algorithms), facade/window studies, fabrication automation and NOWN/MAK work."
+    },
+    {
+      "id": "B5",
+      "category": "Generative Architecture, Housing & Planning",
+      "title": "Circulation, accessibility and egress **study tools**",
+      "status": "D",
+      "problem": "early design teams need to visualize access, door-to-door movement and bottlenecks.",
+      "deliverable": "graph-based movement exploration and annotated route options, with outstanding code/life-safety validation explicitly flagged.",
+      "evidence": "American Superblock door connection graphs, cores, corridors and unit egress explorations. **Not a substitute for code-consultant or licensed professional review.**"
+    },
+    {
+      "id": "B6",
+      "category": "Generative Architecture, Housing & Planning",
+      "title": "Architectural documentation directly from model geometry",
+      "status": "D",
+      "problem": "sketches, diagrams and model views disagree after parameter changes.",
+      "deliverable": "coordinated prototype plan/section views, SVG exports, element schedules and printable design review sheets.",
+      "evidence": "American Superblock drawing set and browser geometry controls; production construction documents are a separate, professionally reviewed service scope."
+    },
+    {
+      "id": "B7",
+      "category": "Generative Architecture, Housing & Planning",
+      "title": "Generative public-space and activity programming",
+      "status": "D",
+      "problem": "community/landscape programs are hard to compare spatially.",
+      "deliverable": "interactive activity kit, placement map, area/relationship data and exportable program schedule.",
+      "evidence": "Penta Court documents twenty spatial-activity prototypes and a movable conceptual placement diagram; placements are not yet fully integrated BIM elements."
+    },
+    {
+      "id": "B8",
+      "category": "Generative Architecture, Housing & Planning",
+      "title": "AI-assisted program/space feasibility experiments",
+      "status": "D/R",
+      "problem": "early briefs are incomplete and multiple requirements conflict.",
+      "deliverable": "proof of concept that translates a brief into a program, audits omitted spaces/relationships and iterates a layout.",
+      "evidence": "Space Maker / Space Liver / Planner prompt→program→audit experiments; experimental scope and human approval required."
+    },
+    {
+      "id": "C1",
+      "category": "Custom AEC Software & Interactive 3D",
+      "title": "Interactive browser-based BIM viewers",
+      "status": "D",
+      "problem": "stakeholders cannot easily explore complicated BIM projects without specialized desktop software.",
+      "deliverable": "web 3D viewer with model levels, selection, property panels, slices, saved views and focused use cases.",
+      "evidence": "American Superblock, Penta Court, tower projects; Three.js, React, That Open/IFC ecosystems."
+    },
+    {
+      "id": "C2",
+      "category": "Custom AEC Software & Interactive 3D",
+      "title": "Parametric product and building configurators",
+      "status": "P/D",
+      "problem": "clients need controlled alternatives, not static renderings.",
+      "deliverable": "browser controls, rule-based geometry, material/size/option logic, cost/BOM placeholders where data supports them, and approved output formats.",
+      "evidence": "Tower Forge and housing/model generators; manufacturing-parametric experience. Live quoting/pricing only when a validated cost model exists."
+    },
+    {
+      "id": "C3",
+      "category": "Custom AEC Software & Interactive 3D",
+      "title": "Interactive feasibility and comparison dashboards",
+      "status": "P/D",
+      "problem": "teams cannot see tradeoffs between scenarios in one place.",
+      "deliverable": "adjustable inputs, visual comparisons, metrics, exports and a structured model history within the project.",
+      "evidence": "HGA data-driven work, City Maker scenarios, American Superblock metrics, data dashboards."
+    },
+    {
+      "id": "C4",
+      "category": "Custom AEC Software & Interactive 3D",
+      "title": "Geometry/BIM-to-web pipelines",
+      "status": "D",
+      "problem": "heavy model assets and BIM metadata are hard to deliver through modern web interfaces.",
+      "deliverable": "custom IFC/JSON/GLB workflow, element identity mapping, optimized presentation and model inspection.",
+      "evidence": "American Superblock browser exports/GLB previews, openBIM experiments. Do not promise production native BREP jobs in static GitHub Pages without a backend."
+    },
+    {
+      "id": "C5",
+      "category": "Custom AEC Software & Interactive 3D",
+      "title": "Interactive competition and presentation experiences",
+      "status": "D",
+      "problem": "a PDF alone poorly explains generative space or time-based design.",
+      "deliverable": "a clear interactive 3D concept site with annotated controls, visual storytelling and standalone handoff assets.",
+      "evidence": "public-art applications, Penta Court and pavilion repositories, responsive web visualization work."
+    },
+    {
+      "id": "C6",
+      "category": "Custom AEC Software & Interactive 3D",
+      "title": "BIM/urban R&D application prototypes",
+      "status": "D",
+      "problem": "AEC innovators need rapid technical proof before building a full product.",
+      "deliverable": "scoped proof-of-concept, architecture notes, working demo, source repository, acceptance criteria and roadmap.",
+      "evidence": "American Superblock, Tower Forge, Space Maker, IFC Validation Webapp, BIMSpect, VIKTOR tower prototype."
+    },
+    {
+      "id": "D1",
+      "category": "Computational Fabrication, Installations & Product Systems",
+      "title": "Custom generative wall and ceiling systems",
+      "status": "P",
+      "problem": "complex surfaces are too slow to design and rationalize panel by panel.",
+      "deliverable": "pattern/geometry logic, repeatable panel families, IDs, shop geometry, assembly maps and prototype coordination.",
+      "evidence": "MAK Studio CNC-patterned and Corian walls; rhythmic timber ceiling; 2018 portfolio fabrication archive."
+    },
+    {
+      "id": "D2",
+      "category": "Computational Fabrication, Installations & Product Systems",
+      "title": "Thermoformed Corian / composite geometry",
+      "status": "P",
+      "problem": "sculptural solid-surface assemblies require forming and tooling logic.",
+      "deliverable": "curvature rules, segmented part geometry, forming jig drawings, geometry coordination and fabrication specifications within agreed material tolerances.",
+      "evidence": "MAK Studio Corian fin-wall and associated fabrication work. Confirm vendor/manufacturer limits on live commissions."
+    },
+    {
+      "id": "D3",
+      "category": "Computational Fabrication, Installations & Product Systems",
+      "title": "CNC-cut plywood and nested part systems",
+      "status": "P",
+      "problem": "unique parts are difficult to number, nest, machine and assemble.",
+      "deliverable": "parameter-driven parts, identification, CNC-ready profiles, toolpath/export coordination, cut lists and assembly diagrams.",
+      "evidence": "MAK/Aria Signs plywood systems, Grasshopper scripts, RhinoCAM/G-code-related workflows, fabrication supervision."
+    },
+    {
+      "id": "D4",
+      "category": "Computational Fabrication, Installations & Product Systems",
+      "title": "Folded aluminum and sheet-metal systems",
+      "status": "P",
+      "problem": "designers need complex form with rational fold lines, seams and supports.",
+      "deliverable": "panel breakdown, fold patterns, part numbering, nesting, attachment concepts and fabrication coordination.",
+      "evidence": "aluminum head, tessellated installation, Dragon Skin/Aria Signs, folded-aluminum professional experience."
+    },
+    {
+      "id": "D5",
+      "category": "Computational Fabrication, Installations & Product Systems",
+      "title": "Parametric acoustic and material systems",
+      "status": "P/D",
+      "problem": "acoustical/architectural products require geometries that link performance intent to feasible production.",
+      "deliverable": "configurable patterns, size families, material/assembly logic and fabrication-ready design data; laboratory acoustic performance testing is separately scoped.",
+      "evidence": "NOWN acoustic-panel workflows, geometric-felt/knitted system exploration, GG-loop material research."
+    },
+    {
+      "id": "D6",
+      "category": "Computational Fabrication, Installations & Product Systems",
+      "title": "Site-specific public art and spatial installations",
+      "status": "P/R",
+      "problem": "commissioners need ambitious but buildable concepts supported by fabrication evidence.",
+      "deliverable": "concept/visual package, schematic design, component system, preliminary budget structure, material/foundation/maintenance outline, and fabrication partner coordination.",
+      "evidence": "Lotus Flower; interactive outdoor installation; faceted sculpture; public-art RFP work. Competition proposals are concepts, not completed built works."
+    },
+    {
+      "id": "D7",
+      "category": "Computational Fabrication, Installations & Product Systems",
+      "title": "Data-driven and generative artworks",
+      "status": "P/D",
+      "problem": "institutions want site data translated into spatial, visual or physical form.",
+      "deliverable": "algorithmic visual system, responsive digital artwork, fabricated parts concept or exhibition-ready visualizations.",
+      "evidence": "HGA audience-driven spatial installation, TADAEX Lotus Flower, p5.js walkers/flow fields, Data Through Design flower taxonomy studies."
+    },
+    {
+      "id": "D8",
+      "category": "Computational Fabrication, Installations & Product Systems",
+      "title": "Furniture, pavilions and small architectural products",
+      "status": "D/R",
+      "problem": "a client needs a one-off spatial object or a configurable product family.",
+      "deliverable": "parametric concept, component strategy, 3D coordination, drawings for technical review and prototyping with fabricators.",
+      "evidence": "Pavilion repository (double-curved roof, organic columns and S-curve seating), Hoboken U-bars proposal, outdoor art concepts. Do not claim engineering approval or physical completion of these proposals."
+    },
+    {
+      "id": "E1",
+      "category": "Spatial Data, Mapping & Analytical Experiences",
+      "title": "GIS/site-data interaction tools",
+      "status": "D",
+      "problem": "parcel, land-use and context data are difficult for design teams to explore.",
+      "deliverable": "browser mapping, editable shapes/GeoJSON, site layers, constraints and live metric overlays.",
+      "evidence": "React/Leaflet/Turf projects with leaflet-draw, polygon operations and drawing widgets; City Maker location/site interface."
+    },
+    {
+      "id": "E2",
+      "category": "Spatial Data, Mapping & Analytical Experiences",
+      "title": "Spatial data analytics",
+      "status": "D",
+      "problem": "spatial patterns and density are hard to interpret.",
+      "deliverable": "project-specific Voronoi, K-means, convex-hull, heatmap, spatial-join or clustering workflow with clearly defined data assumptions.",
+      "evidence": "2024 React/Leaflet/Turf visualization experiments; HGA data-analysis precedent."
+    },
+    {
+      "id": "E3",
+      "category": "Spatial Data, Mapping & Analytical Experiences",
+      "title": "Participatory and crowd-sourced design systems",
+      "status": "P/D",
+      "problem": "stakeholder preferences are hard to convert into design options.",
+      "deliverable": "survey-to-geometry/data model, adjacency/priority logic, interactive outputs and documented interpretation limits.",
+      "evidence": "HGA crowd-sourced architecture research and survey-driven geometry, academic design experiments."
+    },
+    {
+      "id": "E4",
+      "category": "Spatial Data, Mapping & Analytical Experiences",
+      "title": "Urban and environmental concept dashboards",
+      "status": "D/R",
+      "problem": "teams need to tell a clear story about design tradeoffs.",
+      "deliverable": "maps and comparative graphic dashboards; sunlight, density, planting and energy modules only when suitable calculations and data are verified.",
+      "evidence": "City Maker indicators, public-data flower/time-series research, Vertical Housing viewer repository. Do not market research metrics as certified simulations."
+    },
+    {
+      "id": "F1",
+      "category": "AI Design Systems, Research & Training",
+      "title": "AI workflow integration for AEC teams",
+      "status": "P/D",
+      "problem": "staff use AI tools without reusable geometry/model/data rules.",
+      "deliverable": "scoped assistive workflow, data interface, prompts/tool contracts, validation gates, human approval and handoff documentation.",
+      "evidence": "PRISM decision-support prototype, GPT/BIM experiments, design-system development and custom automation practice."
+    },
+    {
+      "id": "F2",
+      "category": "AI Design Systems, Research & Training",
+      "title": "AI-assisted geometry and planning agents",
+      "status": "D/R",
+      "problem": "complex briefs require repeated rounds of planning, generation and critique.",
+      "deliverable": "controlled research prototype that extracts requirements, produces candidate options, checks explicit rules and reports unresolved constraints.",
+      "evidence": "Space Maker/Space Liver feedback loop, American Superblock agent experiments; not fully autonomous licensed design services."
+    },
+    {
+      "id": "F3",
+      "category": "AI Design Systems, Research & Training",
+      "title": "Project knowledge mapping and design-history tools",
+      "status": "R",
+      "problem": "design rationale disappears across emails, versions and teams.",
+      "deliverable": "shared project repository linking decisions, requirements, model elements, source documents, approvals, changes and versioned outputs.",
+      "evidence": "discussed 'Design Brain' idea and related IFC/graph/AI experiments. **No fully deployed persistent cross-client Brain was verified.**"
+    },
+    {
+      "id": "F4",
+      "category": "AI Design Systems, Research & Training",
+      "title": "Simulations of life, use and social behavior",
+      "status": "D/R",
+      "problem": "projects need ways to explore how people and spaces may interact over time.",
+      "deliverable": "conceptual agent-based visualization with explicit assumptions and adjustable scenarios—not forecasts of real behavior.",
+      "evidence": "American Superblock Life Lab seeded agents, social ties and experimental reversible 3D overlays."
+    },
+    {
+      "id": "F5",
+      "category": "AI Design Systems, Research & Training",
+      "title": "Design technology strategy and software audits",
+      "status": "P",
+      "problem": "studios do not know which repetitive process to automate first.",
+      "deliverable": "workflow inventory, ROI hypothesis, prioritized roadmap, proof-of-concept specification and target acceptance tests.",
+      "evidence": "more than a decade of employment and project-specific computational/BIM practice across multiple firms."
+    },
+    {
+      "id": "F6",
+      "category": "AI Design Systems, Research & Training",
+      "title": "Training, workshops and technical handoff",
+      "status": "P/D",
+      "problem": "teams receive impressive scripts they cannot maintain.",
+      "deliverable": "practical Rhino/Grasshopper, Revit/Dynamo, IFC and web-design-technology sessions tied to the client's actual files, with source code and recorded walkthrough where authorized.",
+      "evidence": "tool development, documentation, technical presentations and consultancy experience. Do not imply formal accreditation. ---"
+    },
+    {
+      "id": "L1",
+      "category": "BIM Automation & Model Intelligence",
+      "title": "Fixed-scope BIM Automation Sprint",
+      "status": "D/R",
+      "problem": "Automate one repetitive model or documentation problem with an agreed acceptance test.",
+      "deliverable": "Working script/tool, documented source, sample-based testing, handover.",
+      "evidence": "MEMO BIM Sprint service prototype."
+    },
+    {
+      "id": "L2",
+      "category": "BIM Automation & Model Intelligence",
+      "title": "BIM-to-CAD Architectural Sheet Workflow",
+      "status": "D/R",
+      "problem": "Move from structured building elements to coordinated plans, sections, and CAD-style outputs.",
+      "deliverable": "Proof-of-concept drawing engine; validated sheet samples; known limitations.",
+      "evidence": "BIM-to-CAD documentation prototype; Brooklyn Build; Villa Designer Pro."
+    },
+    {
+      "id": "L3",
+      "category": "BIM Automation & Model Intelligence",
+      "title": "IFC Fragments Model Viewer & Property Explorer",
+      "status": "D/R",
+      "problem": "Bring BIM geometry and properties to an accessible web interface.",
+      "deliverable": "Project-specific model viewer, typed element selection, properties and optional schedules.",
+      "evidence": "IFC Fragment Viewer; Empire IFC Builder; graphpacker; IFC Fragmented Build."
+    },
+    {
+      "id": "L4",
+      "category": "BIM Automation & Model Intelligence",
+      "title": "Parametric Egress Route Concept Studies",
+      "status": "D/R",
+      "problem": "Test access and route assumptions early in design.",
+      "deliverable": "Route network diagrams and flagged spatial conflicts; no life-safety certification.",
+      "evidence": "Folded Egress Studio."
+    },
+    {
+      "id": "L5",
+      "category": "BIM Automation & Model Intelligence",
+      "title": "Architectural Component Assistants",
+      "status": "D/R",
+      "problem": "Manage repeated doors, windows, stairs or element families via interactive tools.",
+      "deliverable": "Typed components, parametric controls, schedules and editable templates.",
+      "evidence": "Code Stair Designer; Door Assistant experiment; façade viewer."
+    },
+    {
+      "id": "L6",
+      "category": "Generative Architecture, Housing & Planning",
+      "title": "Sketch-to-Plan Design Studio",
+      "status": "D/R",
+      "problem": "Convert a rough idea into editable room arrangements, circulation and comparisons.",
+      "deliverable": "Interactive plan drafts, room graph, model/export options, test cases.",
+      "evidence": "Haven & Hall Planner; Living Spaces Loop; Graphpacker."
+    },
+    {
+      "id": "L7",
+      "category": "Generative Architecture, Housing & Planning",
+      "title": "Zoning Atlas & Development Rule Explorer",
+      "status": "D/R",
+      "problem": "Find site constraints faster than manual code/PDF lookup.",
+      "deliverable": "Source-cited jurisdiction-specific data explorer with manually verified zoning rules.",
+      "evidence": "Zoning Atlas research prototype; known data corrections."
+    },
+    {
+      "id": "L8",
+      "category": "Generative Architecture, Housing & Planning",
+      "title": "Fast Site Feasibility & Presentation Tools",
+      "status": "D/R",
+      "problem": "Compare urban development scenarios with area, parking, unit, density and section assumptions.",
+      "deliverable": "Interactive site model, summary metrics, presentation-ready alternatives.",
+      "evidence": "Turbo Arch; Brooklyn Build; Organic City Generator."
+    },
+    {
+      "id": "L9",
+      "category": "Generative Architecture, Housing & Planning",
+      "title": "Multi-Agent Residential Planning Research",
+      "status": "D/R",
+      "problem": "Explore how competing design objectives inform room-first plans.",
+      "deliverable": "Proof-of-concept multi-agent plan loop, explanations, and review controls.",
+      "evidence": "Living Spaces Loop."
+    },
+    {
+      "id": "L10",
+      "category": "Generative Architecture, Housing & Planning",
+      "title": "Tower & Housing Typology Configurators",
+      "status": "D/R",
+      "problem": "Explore parameterized floor plates, cores, building envelopes and façade options.",
+      "deliverable": "Interactive web generator with geometry/data outputs specified per project.",
+      "evidence": "Tower Forge, Parametric Tower Builder, Leaf Residences, point tower studies."
+    },
+    {
+      "id": "L11",
+      "category": "Generative Architecture, Housing & Planning",
+      "title": "Parking Layout Concept Generator",
+      "status": "D/R",
+      "problem": "Create iterative parking-stall and circulation geometry within defined site boundaries.",
+      "deliverable": "Editable polygon-based plan alternatives with dimensional checks; code review separate.",
+      "evidence": "Parking generator prototypes."
+    },
+    {
+      "id": "L12",
+      "category": "Custom AEC Software & Interactive 3D",
+      "title": "Web-Based Architectural Product Configurator",
+      "status": "D/R",
+      "problem": "Give clients a graphical interface for a complex parametric product.",
+      "deliverable": "Responsive UI, geometry engine, parameter persistence, production-oriented exports where validated.",
+      "evidence": "Container Creator, Tower Forge, Dragon Skin, Feature Facets."
+    },
+    {
+      "id": "L13",
+      "category": "Custom AEC Software & Interactive 3D",
+      "title": "Client-Facing Portfolio & Proposal Generator",
+      "status": "D/R",
+      "problem": "Make repeatable project pages and print-ready portfolios.",
+      "deliverable": "Editable portfolio CMS, project schema, templates and PDF export.",
+      "evidence": "Portfolio Builder; MEMO Studio website."
+    },
+    {
+      "id": "L14",
+      "category": "Custom AEC Software & Interactive 3D",
+      "title": "Interactive BIM / GIS Storytelling",
+      "status": "D/R",
+      "problem": "Communicate a project by linking 3D objects, maps and explanatory information.",
+      "deliverable": "Interactive web scene with contextual annotations and filterable data.",
+      "evidence": "Shadow Lines Globe, Vertical Housing, Cesium studies."
+    },
+    {
+      "id": "L15",
+      "category": "Custom AEC Software & Interactive 3D",
+      "title": "Graph-Driven Design Interfaces",
+      "status": "D/R",
+      "problem": "Navigate relationships between rooms, systems, APIs or generative rules.",
+      "deliverable": "Interactive graph, search/filter, linked object view and exportable data.",
+      "evidence": "Graphpacker, API knowledge graph, Polygen Grapher, causal graph studies."
+    },
+    {
+      "id": "L16",
+      "category": "Computational Fabrication, Installations & Product Systems",
+      "title": "Computational Brick Façade Patterning",
+      "status": "D/R",
+      "problem": "Turn brick patterns/color rules into a panel placement plan for fabrication coordination.",
+      "deliverable": "Pattern variations, colored unit schedule and robotic placement data prototype.",
+      "evidence": "4m × 4m brick pattern gallery; factory automation ambitions unverified."
+    },
+    {
+      "id": "L17",
+      "category": "Computational Fabrication, Installations & Product Systems",
+      "title": "Parametric Perforated Façades: Dragon Skin",
+      "status": "D/R",
+      "problem": "Explore layered perforations for architectural façades and screens.",
+      "deliverable": "Parametric panel layout, visual preview and tested shop-export prototype as scoped.",
+      "evidence": "Dragon Skin tool; historical perforated metal fabrication."
+    },
+    {
+      "id": "L18",
+      "category": "Computational Fabrication, Installations & Product Systems",
+      "title": "Optical / Lenticular Feature Walls",
+      "status": "D/R",
+      "problem": "Explore viewpoint-dependent multi-image walls with fabrication-oriented geometry.",
+      "deliverable": "Zigzag/faceted panel configurator, elevations and component logic.",
+      "evidence": "Feature Facets optical wall designer."
+    },
+    {
+      "id": "L19",
+      "category": "Computational Fabrication, Installations & Product Systems",
+      "title": "Cymatic, Harmonic & Polyhedral Geometry",
+      "status": "D/R",
+      "problem": "Explore algorithmic displacement, Chladni fields, mesh topology and patterned surfaces.",
+      "deliverable": "Parametric surface generator and geometry export path based on agreed specification.",
+      "evidence": "GG-Loop Stone Weaver, Dodeca Chladni, Cymatic Sphere Studio."
+    },
+    {
+      "id": "L20",
+      "category": "Computational Fabrication, Installations & Product Systems",
+      "title": "Custom 3D-Print Product Generators",
+      "status": "D/R",
+      "problem": "Create user-configurable manufacturing geometry with repeatable dimensions.",
+      "deliverable": "STL output for printable objects, tolerance settings and test-piece checklist.",
+      "evidence": "Container Creator, Phyllotaxis Petal Vase, MeshCraft Studio."
+    },
+    {
+      "id": "L21",
+      "category": "Spatial Data, Mapping & Analytical Experiences",
+      "title": "Geospatial Zoning & Architectural Atlas",
+      "status": "D/R",
+      "problem": "Connect location, zoning metadata and massing constraints.",
+      "deliverable": "Map interface with documented provenance, rule updates and interactive comparisons.",
+      "evidence": "Zoning Atlas, Turbo Arch, Cesium prototypes."
+    },
+    {
+      "id": "L22",
+      "category": "Spatial Data, Mapping & Analytical Experiences",
+      "title": "Generative Urban & Pattern Research Visualizations",
+      "status": "D/R",
+      "problem": "Explore urban formations, growth rules, fractals and pattern aggregation.",
+      "deliverable": "Interactive visualizer, reproducible seeds, parameters and documented outputs.",
+      "evidence": "Organic City Generator, Fractal City Builder, Memo University."
+    },
+    {
+      "id": "L23",
+      "category": "AI Design Systems, Research & Training",
+      "title": "AI-Collaborative Design Workspace Prototype",
+      "status": "D/R",
+      "problem": "Investigate a persistent, human-controlled model and decisions log rather than independent AI authorship.",
+      "deliverable": "Versioned project schema, saved inputs and design decisions, opt-in memory, and export/delete options.",
+      "evidence": "Living Spaces Loop, Arch AI OS, MEMO American Superblock; integrated client memory unverified."
+    },
+    {
+      "id": "L24",
+      "category": "AI Design Systems, Research & Training",
+      "title": "Creative Coding / Computational Geometry Training",
+      "status": "D/R",
+      "problem": "Teach mesh operations, geometry transformations and design logic using interactive app examples.",
+      "deliverable": "Working educational demos, annotated equations/scripts, guided lessons.",
+      "evidence": "GG LOOP Cymatic Sculpture Lab; GG-Loop Stone Weaver; geometric forms library."
+    },
+    {
+      "id": "L25",
+      "category": "AI Design Systems, Research & Training",
+      "title": "Concept-to-Façade Generative Pipeline R&D",
+      "status": "D/R",
+      "problem": "Prototype text-to-concept-to-geometric fabrication studies with a clear evaluation loop.",
+      "deliverable": "Feasibility demonstrator and tested module interfaces; no blanket model accuracy promise.",
+      "evidence": "Concept-to-Facade Lovable study, Dragon Skin, brick pattern prototype."
+    },
+    {
+      "id": "L26",
+      "category": "Computational Fabrication, Installations & Product Systems",
+      "title": "Temporary Public-Art Geometry & Site Prototyping",
+      "status": "D/R",
+      "problem": "Compare modular installation spacing, fabrication counts, and human-scale siting.",
+      "deliverable": "3D site mockups, component schedule, concept fixing details for licensed review.",
+      "evidence": "Passport Line Studio / U frames, Two Banks One Current."
+    }
+  ]
+}
