@@ -32,3 +32,13 @@
 .atlas-teaser-footnote{font-size:12px;line-height:1.7;color:#829182;max-width:850px;margin:24px 0 0}
 @media(max-width:1100px){.atlas-source-preview{grid-template-columns:repeat(2,minmax(0,1fr))}.atlas-teaser-heading{align-items:start;flex-direction:column;gap:24px}}
 @media(max-width:560px){.atlas-source-preview{grid-template-columns:1fr}.atlas-source-preview>a{min-height:175px}.atlas-source-preview strong{font-size:61px}.atlas-teaser-heading{margin-bottom:34px}}
+
+/* High-visibility launch strip for the newly published Research Atlas */
+.atlas-launch-strip{display:block;background:#dfe7da;color:#2f3e33;border-bottom:1px solid #c3d0bf;transition:background .2s}
+.atlas-launch-strip:hover{background:#d0dfcb}
+.atlas-launch-inner{display:flex;align-items:center;gap:25px;min-height:54px;font-size:12px;line-height:1.4}
+.atlas-launch-inner strong{font-family:monospace;font-size:11px;letter-spacing:.03em;white-space:nowrap}
+.atlas-launch-inner>span{color:#57695a}
+.atlas-launch-inner b{margin-left:auto;font-size:12px;font-weight:700;white-space:nowrap}
+@media(max-width:850px){.atlas-launch-inner{flex-wrap:wrap;padding-block:11px;gap:8px 18px}.atlas-launch-inner>span{flex:1 1 100%;order:2}.atlas-launch-inner b{margin-left:auto}}
+@media(max-width:560px){.atlas-launch-inner{font-size:11px}.atlas-launch-inner strong{font-size:10px}.atlas-launch-inner b{font-size:11px}}
