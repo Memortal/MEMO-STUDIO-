@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f7f7f4">
+  <meta name="description" content="Explore the MEMO Studio research atlas: 66 service capabilities, 58 Lovable computational-design studies, 30 ChatGPT research programs, and 16 historic Wix portfolio collections.">
+  <title>Research Atlas — MEMO STUDIO</title>
+  <link rel="icon" type="image/svg+xml" href="./favicon.svg">
+  <link rel="stylesheet" href="./styles.css">
+  <link rel="stylesheet" href="./atlas.css">
+  <script src="./script.js" defer></script>
+  <script src="./atlas.js" defer></script>
+</head>
+<body>
+  <a class="skip" href="#archiveResults">Skip to the project archive</a>
+  <header class="site-header">
+    <div class="shell header-inner">
+      <a class="brand" href="./index.html" aria-label="MEMO Studio home"><span class="brand-symbol" aria-hidden="true"><i></i><i></i><i></i><i></i></span><span>MEMO<span class="brand-light"> STUDIO</span></span></a>
+      <nav class="desktop-nav" aria-label="Primary navigation">
+        <a href="./index.html#services">Services</a>
+        <a href="./index.html#work">Selected work</a>
+        <a href="./atlas.html" aria-current="page">Research atlas</a>
+        <a href="./index.html#approach">Approach</a>
+      </nav>
+      <a class="header-contact" href="mailto:alireza.memaryan@gmail.com?subject=MEMO%20Studio%20Project%20Inquiry">Discuss a project <span aria-hidden="true">↗</span></a>
+      <button class="mobile-menu" id="menuToggle" type="button" aria-expanded="false" aria-controls="mobileNav" aria-label="Open navigation"><span></span><span></span></button>
+    </div>
+    <nav id="mobileNav" class="mobile-nav" aria-label="Mobile navigation" hidden>
+      <a href="./index.html#services">Services</a><a href="./index.html#work">Selected work</a><a href="./atlas.html">Research atlas</a><a href="./index.html#approach">Approach</a><a href="./index.html#contact">Contact</a>
+    </nav>
+  </header>
+  <main>
+    <section class="atlas-hero shell">
+      <p class="eyebrow">MEMO / RESEARCH ATLAS / 2026</p>
+      <div class="atlas-hero-grid">
+        <div><h1>The work behind <span class="atlas-accent">the systems.</span></h1><p class="atlas-intro">A living index of MEMO Studio's computational design experiments, architectural research, fabrication archive and service methods. Explore the work by origin, discipline or problem.</p><a href="./index.html#contact" class="underlined">Have a problem we can solve? <span aria-hidden="true">↗</span></a></div>
+        <div class="atlas-data-mark" aria-hidden="true"><span>MEMO</span><svg viewBox="0 0 220 220"><g fill="none" stroke="#9faea0" stroke-width="1.2"><circle cx="110" cy="110" r="90"/><circle cx="110" cy="110" r="63"/><circle cx="110" cy="110" r="37"/><path d="M10 110H210 M110 10V210 M39 39l142 142 M181 39 39 181"/></g><g fill="#e66c52"><circle cx="110" cy="20" r="8"/><circle cx="174" cy="174" r="7"/><circle cx="47" cy="173" r="6"/><circle cx="110" cy="110" r="12"/></g></svg><small>ONE STUDIO / MULTIPLE RESEARCH ENVIRONMENTS</small></div>
+      </div>
+      <div class="atlas-metrics">
+        <div><strong>156</strong><span>Lovable experiments inventoried</span></div>
+        <div><strong>58</strong><span>Lovable work entries selected</span></div>
+        <div><strong>30</strong><span>GPT research programs documented</span></div>
+        <div><strong>16</strong><span>Wix portfolio collections</span></div>
+        <div><strong>66</strong><span>Service capabilities indexed</span></div>
+      </div>
+    </section>
+    <section class="archive-section" id="archive" aria-labelledby="archiveTitle">
+      <div class="shell">
+        <div class="section-index"><span>01 / EXPLORE THE ARCHIVE</span><span class="rule"></span><span>SEARCHABLE SYSTEMS + EVIDENCE</span></div>
+        <div class="archive-heading"><div><h2 id="archiveTitle">Explore by source.</h2><p>Different environments, one evolving body of computational design work.</p></div><div class="source-explainer">Choose a source, then search by title, discipline, tools or client problem.</div></div>
+        <div class="source-tabs" role="tablist" aria-label="Archive collection">
+          <button class="source-tab active" type="button" role="tab" id="tab-lovable" aria-controls="archiveResults" data-source="lovable" aria-selected="true"><span>01</span> Lovable <strong>58</strong></button>
+          <button class="source-tab" type="button" role="tab" id="tab-gpt" aria-controls="archiveResults" data-source="gpt" aria-selected="false"><span>02</span> ChatGPT research <strong>30</strong></button>
+          <button class="source-tab" type="button" role="tab" id="tab-wix" aria-controls="archiveResults" data-source="wix" aria-selected="false"><span>03</span> Wix / built archive <strong>16</strong></button>
+          <button class="source-tab" type="button" role="tab" id="tab-services" aria-controls="archiveResults" data-source="services" aria-selected="false"><span>04</span> Service library <strong>66</strong></button>
+        </div>
+        <div class="archive-toolbar">
+          <label class="search-wrap"><span class="sr-only">Search selected archive</span><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="10.5" cy="10.5" r="6.5"/><path d="m15.5 15.5 5 5"/></svg><input id="archiveSearch" type="search" placeholder="Search projects, systems, tools, or problems..." autocomplete="off"></label>
+          <label class="category-wrap"><span class="sr-only">Filter by category</span><select id="categoryFilter"><option value="all">All disciplines</option></select></label>
+          <button class="clear-button" id="clearFilters" type="button">Clear</button>
+        </div>
+        <div class="archive-result-summary" aria-live="polite"><span id="resultCount">Loading the research atlas…</span><span id="sourceDescription"></span></div>
+        <div id="archiveResults" class="atlas-grid" role="tabpanel" aria-labelledby="tab-lovable" tabindex="0"><p class="loading-message">Loading project records…</p></div>
+        <div id="atlasPagination" class="atlas-pagination" hidden><button class="btn btn-dark" id="loadMore" type="button">Show more projects ↓</button></div>
+        <div class="archive-disclaimer"><span>EDITORIAL NOTES</span><p><strong>Public evidence is not the same as production validation.</strong> An experimental interface or a Lovable publication flag does not establish successful exports, code compliance, or a client-ready system. Earlier professional portfolio work retains firm credits and provenance notes. Private and unrelated experiments, API credentials and personal images are excluded.</p></div>
+      </div>
+    </section>
+    <section class="connect-section"><div class="shell connect-grid"><div><p class="eyebrow">RESEARCH IS USEFUL WHEN IT SOLVES A PROBLEM</p><h2>Let's build one thing <em>that matters.</em></h2><p>Have a repetitive BIM task, unusual geometry, architectural product, or design-data problem? A focused first engagement is the place to start.</p></div><a class="btn btn-dark" href="mailto:alireza.memaryan@gmail.com?subject=MEMO%20Studio%20%E2%80%94%20Research%20Atlas%20Inquiry&body=Hello%20MEMO%20Studio%2C%0A%0AI'm%20interested%20in%3A%0A%0AMy%20project%20or%20problem%3A%0A%0A">Start a conversation ↗</a></div></section>
+  </main>
+  <footer class="footer"><div class="shell"><div class="footer-top"><a class="footer-brand" href="./index.html">MEMO STUDIO<span>®</span></a><div class="footer-links"><a href="./index.html">Home</a><a href="https://github.com/Memortal/MEMO-STUDIO-" target="_blank" rel="noopener noreferrer">GitHub ↗</a><a href="https://memortal.github.io/Portfolio-/" target="_blank" rel="noopener noreferrer">Portfolio ↗</a><a href="https://www.linkedin.com/in/alireza-memarian-118730288" target="_blank" rel="noopener noreferrer">LinkedIn ↗</a></div></div><div class="footer-bottom"><span>© MEMO Studio · Selected public work</span><span>Computational design / systems / research</span><a href="#top">Back to top ↑</a></div></div></footer>
+</body>
+</html>
