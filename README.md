@@ -48,6 +48,28 @@ This site features selected public research prototypes and historical physical p
 
 The portfolio imagery is served from the pre-existing public [MEMO Studio portfolio](https://github.com/Memortal/Portfolio-), where credits and provenance notes are maintained.
 
+
+## Research Atlas (2026-11-08)
+
+**[Explore the multi-source atlas](https://memortal.github.io/MEMO-STUDIO-/atlas.html)** — an interactive, searchable archive connected from the main homepage.
+
+- **58** selected, work-relevant projects from **156** projects inventoried in the linked Lovable workspace. The remainder are duplicates, unrelated/personal projects, insufficiently documented, or not ready for public presentation.
+- **30** design and computational-research programs documented across GPT collaboration.
+- **16** public portfolio collections and **160** approved historical images from the archived Wix-to-GitHub portfolio.
+- **66** detailed potential service offerings, organized across six client-facing service families.
+
+**Static research data** lives in:
+- `data/lovable.json`
+- `data/gpt-research.json`
+- `data/wix.json`
+- `data/services.json`
+
+The archive UI is implemented in `atlas.html`, `atlas.css`, and `atlas.js`. Search, filtering, details panels and pagination all work client-side without a database or paid plan.
+
+**Scope:** Wix's currently connected Media Manager did not return site files; the Wix archive therefore uses an earlier curated, publicly accessible GitHub portfolio export. Historical employer/project credits and caveats were retained. This is not a live Wix, ChatGPT, or Lovable synchronization and publishing does not imply that every development prototype passes functional or regulatory checks. In particular, MEMO Brain remains a research direction. No private app identifiers, confidential prompts, credentials, or personal images are intentionally published.
+
+The homepage remains a concise service and lead-generation page, while the atlas makes detailed methodology and precedent work accessible for interested clients.
+
 ## Contact
 
 Alireza Memarian · MEMO Studio  
