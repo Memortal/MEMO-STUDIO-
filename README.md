@@ -26,11 +26,14 @@ Every service section in the website includes common problems, possible delivera
 
 The **service explorer** is the central client-facing experience. Six specialty tabs organize related work; each specialty has nested sections for **Selected work**, **Physical work**, **Interactive tools**, **Explorations**, and **What I can deliver**. Visitors can search, open available demos and galleries, or email MEMO Studio about a specific scope.
 
-- `index.html`, `styles.css`, `script.js`: homepage and responsive interactions.
+- `index.html`, `styles.css`, `script.js`: homepage and responsive navigation.
+- `system-lab.js`: twelve deterministic, schematic architectural massing grammars with occupancy-based volumetric subtractions, independent floor-height profiles, facade generation, rooftop elements, family rerolls, lock controls and side-by-side proposal comparison.
 - `services.html`, `atlas.css`, `atlas.js`: service explorer and nested portfolio tabs. `atlas.html` redirects earlier links to the new page.
 - `data/work.json`: sanitized, categorized work and capabilities (98 distinct studies and projects and 66 service descriptions).
 - `.github/workflows/pages.yml`: automatic GitHub Pages deployment.
 - `favicon.svg`: MEMO Studio mark.
+
+The homepage massing laboratory is an interactive concept generator. Its areas and heights are illustrative approximations; cut geometry is grid/voxel-based rather than professional CAD solid booleans. It does not validate structural performance, zoning, circulation or building-code compliance.
 
 This is a static site: no client login, file upload, payment flow, external API keys or databases are needed. Use **Settings → Pages → GitHub Actions** for deployment; commits to `main` trigger publishing. To preview locally, run `python3 -m http.server 8000` in this repository.
 
