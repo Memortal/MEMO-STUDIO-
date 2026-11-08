@@ -5,7 +5,7 @@ MEMO Studio is the computational design and design-technology practice of Alirez
 ## Website
 
 - **Homepage:** https://memortal.github.io/MEMO-STUDIO-/
-- **Explore services and related work:** https://memortal.github.io/MEMO-STUDIO-/atlas.html
+- **Explore services and related work:** https://memortal.github.io/MEMO-STUDIO-/services.html
 - **Portfolio archive:** https://memortal.github.io/Portfolio-/
 - **GitHub:** https://github.com/Memortal
 
@@ -27,8 +27,8 @@ Every service section in the website includes common problems, possible delivera
 The **service explorer** is the central client-facing experience. Six specialty tabs organize related work; each specialty has nested sections for **Selected work**, **Physical work**, **Interactive tools**, **Explorations**, and **What I can deliver**. Visitors can search, open available demos and galleries, or email MEMO Studio about a specific scope.
 
 - `index.html`, `styles.css`, `script.js`: homepage and responsive interactions.
-- `atlas.html`, `atlas.css`, `atlas.js`: service explorer and nested portfolio tabs (the original `atlas.html` URL is retained so prior links still work).
-- `data/work.json`: sanitized, categorized work and capabilities (104 documented examples and 66 service descriptions).
+- `services.html`, `atlas.css`, `atlas.js`: service explorer and nested portfolio tabs. `atlas.html` redirects earlier links to the new page.
+- `data/work.json`: sanitized, categorized work and capabilities (98 distinct studies and projects and 66 service descriptions).
 - `.github/workflows/pages.yml`: automatic GitHub Pages deployment.
 - `favicon.svg`: MEMO Studio mark.
 
