@@ -34,7 +34,7 @@
   const roofLabels = {garden:'Roof terraces + planters',skylight:'Skylight bands',terrace:'Accessible terraces',pavilion:'Roof pavilions',green:'Planted roofs',solar:'Solar canopy',mechanical:'Screened roof equipment'};
   const facadeLabels = {bands:'Horizontal slab bands',horizontal:'Strip windows',punched:'Punched openings',fins:'Vertical fins',balconies:'Recessed balconies',framed:'Deep perimeter frames',mixed:'Mixed podium + upper',screen:'Perforated screens'};
   const fmt=n=>Number(n).toLocaleString('en-US',{maximumFractionDigits:0});
-  const rect=(x,y,a,b)=>x>=a&&x<=b&&y>=a&&y<=b;
+  const rect=(x,y,minX,maxX,minY,maxY)=>x>=minX&&x<=maxX&&y>=minY&&y<=maxY;
   const hash=(a,b,c,seed)=>{let n=(a*73856093)^(b*19349663)^(c*83492791)^(seed*2654435761);n=Math.imul(n^(n>>>16),2246822507);return ((n^(n>>>13))>>>0)/4294967295;};
   function boxFn(i,x,y,k) {
     const ring=rect(x,y,1,10,1,10)&&!rect(x,y,4,7,4,7);
@@ -288,7 +288,7 @@
   slider.addEventListener('input',e=>advance(e.target.value));
   apply('prevProposal',()=>advance(state.index===0?12:state.index));
   apply('nextProposal',()=>advance(state.index===11?1:state.index+2));
-  apply('shuffleProposal',()=>{state.shuffle++;if(state.lockFootprint||state.lockFloors||state.lockFacade)captureLocks();refresh()});
+  apply('shuffleProposal',()=>{if(state.lockFootprint||state.lockFloors||state.lockFacade)captureLocks();state.shuffle++;refresh()});
   for(const [id,field] of [['cutDepth','cut'],['facadeDensity','facade'],['roofComplexity','roof']]){
     const control=get(id),out=get(id+'Value');
     if(!control)continue;
