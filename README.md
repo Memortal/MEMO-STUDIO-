@@ -1,79 +1,54 @@
-# MEMO STUDIO — Design systems, built to work
+# MEMO Studio — Design systems, built to work
 
-A lightweight public website for **MEMO Studio**, a computational design and technology practice led by Alireza Memarian.
+MEMO Studio is the computational design and design-technology practice of Alireza Memarian, building tools, systems and prototypes that help architects, engineers, fabricators and teams work with complex geometry and building data.
 
-**Website (after GitHub Pages activation):** https://memortal.github.io/MEMO-STUDIO-/
+## Website
 
-**Repository:** https://github.com/Memortal/MEMO-STUDIO-
+- **Homepage:** https://memortal.github.io/MEMO-STUDIO-/
+- **Explore services and related work:** https://memortal.github.io/MEMO-STUDIO-/atlas.html
+- **Portfolio archive:** https://memortal.github.io/Portfolio-/
+- **GitHub:** https://github.com/Memortal
 
-## What we do
+## What clients can hire MEMO Studio for
 
-- **BIM automation and IFC** — Revit/Dynamo workflows, model data, schedules and reporting.
-- **Generative architecture** — rule-based towers, sites, plans and building typologies.
-- **Custom AEC software** — interactive 3D applications and spatial data tools.
-- **Parametric fabrication** — facades, CNC workflows, tessellation and assembly systems.
-- **Spatial data and GIS** — zoning, parcels and urban decision tools.
-- **Design intelligence research** — evolving, human-directed knowledge and design systems.
+| Specialty | Typical projects |
+|---|---|
+| BIM Automation & Coordination | Revit/Dynamo automation, IFC/model inspection, QA, BIM reporting and sheet workflows |
+| Generative Architecture & Housing | Parametric massing, housing configurations, adjacency and building generators |
+| Custom Design Software & 3D Tools | Interactive browser applications, configurators, dashboards and model viewers |
+| Digital Fabrication & Public Art | CNC geometry, feature walls, tessellated cladding, panels, sculpture and installations |
+| GIS, Zoning & Site Feasibility | Parcel design, zoning explorations, spatial analysis and scenario comparisons |
+| AI Design Systems & Research | Human-in-the-loop design agents, design knowledge, geometric reasoning and simulation |
 
-## Selected work
+Every service section in the website includes common problems, possible deliverables, target clients, and relevant examples and research.
 
-- [American Superblock](https://memortal.github.io/American-Superblock/) — architectural and BIM research prototype
-- [Tower Forge](https://github.com/Memortal/tower-forge) — parametric building generator
-- [Penta Court](https://memortal.github.io/Penta-Court/) — botanical BIM and spatial experience studies
-- [Selected physical portfolio](https://memortal.github.io/Portfolio-/) — fabrication, sculpture and installation work
+## How the service website is organized
 
-## Website structure
+The **service explorer** is the central client-facing experience. Six specialty tabs organize related work; each specialty has nested sections for **Selected work**, **Physical work**, **Interactive tools**, **Explorations**, and **What I can deliver**. Visitors can search, open available demos and galleries, or email MEMO Studio about a specific scope.
 
-- `index.html` — homepage, services, case studies, research and contact
-- `styles.css` — responsive editorial design
-- `script.js` — interactive geometry visualization, project filters and mobile menu
-- `favicon.svg` — MEMO Studio mark
-- `.github/workflows/pages.yml` — GitHub Pages deployment
+- `index.html`, `styles.css`, `script.js`: homepage and responsive interactions.
+- `atlas.html`, `atlas.css`, `atlas.js`: service explorer and nested portfolio tabs (the original `atlas.html` URL is retained so prior links still work).
+- `data/work.json`: sanitized, categorized work and capabilities (104 documented examples and 66 service descriptions).
+- `.github/workflows/pages.yml`: automatic GitHub Pages deployment.
+- `favicon.svg`: MEMO Studio mark.
 
-No build pipeline or API key is required.
+This is a static site: no client login, file upload, payment flow, external API keys or databases are needed. Use **Settings → Pages → GitHub Actions** for deployment; commits to `main` trigger publishing. To preview locally, run `python3 -m http.server 8000` in this repository.
 
-## Publish with GitHub Pages
+## How work is labeled
 
-In this repository, open **Settings → Pages** and set **Build and deployment → Source: GitHub Actions**. The included deployment workflow publishes the static site at:
+- **Physical / archival work:** historic professional or physical examples, with employer/project credit where known.
+- **Interactive prototype:** an experimental app or model; published status does not certify reliable operation.
+- **Design proposal:** concept/proposal work; not a built commission.
+- **Research exploration:** implementation research or evolving design methods.
+- **Service capability:** a possible engagement, with sample output, scope and precedent rather than a claim of an existing turnkey product.
 
-https://memortal.github.io/MEMO-STUDIO-/
-
-If Pages is already enabled, commits to `main` start the workflow automatically. Otherwise, activate Pages once and manually re-run the deployment workflow under Actions if necessary.
-
-To preview locally: run `python3 -m http.server 8000` in this folder and visit `http://localhost:8000`.
-
-## Scope and accuracy
-
-This site features selected public research prototypes and historical physical projects rather than publishing every experiment from the Lovable inventory. Prototype architecture is not certified construction documentation. MEMO Brain is an evolving research vision, not a production secure data-memory platform. All engineering, regulatory and life-safety conclusions require qualified review. Older employer and collaborator project contributions should retain verified credit. The site does not accept client file uploads or payments; inquiries use email.
-
-The portfolio imagery is served from the pre-existing public [MEMO Studio portfolio](https://github.com/Memortal/Portfolio-), where credits and provenance notes are maintained.
-
-
-## Research Atlas (2026-11-08)
-
-**[Explore the multi-source atlas](https://memortal.github.io/MEMO-STUDIO-/atlas.html)** — an interactive, searchable archive connected from the main homepage.
-
-- **58** selected, work-relevant projects from **156** projects inventoried in the linked Lovable workspace. The remainder are duplicates, unrelated/personal projects, insufficiently documented, or not ready for public presentation.
-- **30** design and computational-research programs documented across GPT collaboration.
-- **16** public portfolio collections and **160** approved historical images from the archived Wix-to-GitHub portfolio.
-- **66** detailed potential service offerings, organized across six client-facing service families.
-
-**Static research data** lives in:
-- `data/lovable.json`
-- `data/gpt-research.json`
-- `data/wix.json`
-- `data/services.json`
-
-The archive UI is implemented in `atlas.html`, `atlas.css`, and `atlas.js`. Search, filtering, details panels and pagination all work client-side without a database or paid plan.
-
-**Scope:** Wix's currently connected Media Manager did not return site files; the Wix archive therefore uses an earlier curated, publicly accessible GitHub portfolio export. Historical employer/project credits and caveats were retained. This is not a live Wix, ChatGPT, or Lovable synchronization and publishing does not imply that every development prototype passes functional or regulatory checks. In particular, MEMO Brain remains a research direction. No private app identifiers, confidential prompts, credentials, or personal images are intentionally published.
-
-The homepage remains a concise service and lead-generation page, while the atlas makes detailed methodology and precedent work accessible for interested clients.
+Complex design and engineering tools require client-specific testing. Building-code, life-safety, accessibility, structural and MEP conclusions must be reviewed by qualified professionals. A future project-memory platform is a research direction and is not marketed as an already deployed secure storage service.
 
 ## Contact
 
-Alireza Memarian · MEMO Studio  
-[alireza.memaryan@gmail.com](mailto:alireza.memaryan@gmail.com)  
+**Alireza Memarian**  
+Computational designer · BIM automation · Design technology  
+alireza.memaryan@gmail.com  
 https://memostudio.design/
 
-**From a design problem to a working system.**
+*From a design problem to a working system.*
