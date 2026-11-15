@@ -55,3 +55,12 @@ alireza.memaryan@gmail.com
 https://memostudio.design/
 
 *From a design problem to a working system.*
+
+
+## Search discoverability and structured pages
+
+This repository now includes static, crawlable service guides in `services/`, three photographed-project summaries in `projects/`, `sitemap.xml`, and informational `llms.txt`. The guides supplement rather than replace the interactive service explorer. The homepage and services pages carry canonical metadata and JSON-LD for the studio and the service directory; service pages use Schema.org Service and case studies use CreativeWork.
+
+**Canonical site:** This repository deploys to `https://memortal.github.io/MEMO-STUDIO-/`. The domain `memostudio.design` currently hosts a separate site. Do not switch canonical URLs to that domain unless it is configured to serve these same pages or an intentional migration and redirects are completed.
+
+**GitHub Pages caveat:** This project is hosted at a subpath. A `robots.txt` inside this repository would not control the host-wide crawler policy at `https://memortal.github.io/robots.txt`, so it is intentionally not added. Submit the sitemap only after the review branch is merged and the files are deployed.

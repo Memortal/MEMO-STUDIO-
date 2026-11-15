@@ -1,0 +1,24 @@
+# MEMO Studio
+
+MEMO Studio builds computational design tools, BIM automation, generative architecture systems, custom AEC software and fabrication workflows.
+
+Canonical website for this repository: https://memortal.github.io/MEMO-STUDIO-/
+Services and work: https://memortal.github.io/MEMO-STUDIO-/services.html
+
+## Service guides
+- BIM Automation & Coordination: https://memortal.github.io/MEMO-STUDIO-/services/bim-automation.html
+- Generative Architecture & Housing: https://memortal.github.io/MEMO-STUDIO-/services/generative-architecture.html
+- Custom Design Software & 3D Tools: https://memortal.github.io/MEMO-STUDIO-/services/aec-design-software.html
+- Digital Fabrication & Public Art: https://memortal.github.io/MEMO-STUDIO-/services/parametric-fabrication.html
+- GIS, Zoning & Site Feasibility: https://memortal.github.io/MEMO-STUDIO-/services/gis-site-feasibility.html
+- AI Design Systems & Research: https://memortal.github.io/MEMO-STUDIO-/services/ai-architecture-research.html
+
+## Documented projects
+- Thermoformed Corian Fin Wall: https://memortal.github.io/MEMO-STUDIO-/projects/thermoformed-corian-fin-wall.html
+- Tessellated Architectural Installation: https://memortal.github.io/MEMO-STUDIO-/projects/tessellated-architectural-installation.html
+- Aluminum Head: https://memortal.github.io/MEMO-STUDIO-/projects/aluminum-head.html
+
+## Contact
+alireza.memaryan@gmail.com
+
+Physical work, prototypes, proposals and research are distinguished in the portfolio. An interactive prototype is not a production-certified tool. The llms.txt file is informational, not a guaranteed search indexing mechanism.

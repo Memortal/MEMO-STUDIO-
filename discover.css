@@ -1,0 +1,27 @@
+/* Crawlable detail pages and service guide links. Existing studio styles remain unchanged. */
+.seo-guides{margin:1.8rem 0 0;padding:1.5rem;border:1px solid #d9ded8;border-radius:12px;background:#f7f7f4}
+.seo-guides h3{font-size:1.2rem;margin:0 0 .3rem}.seo-guides p{margin:.1rem 0 1rem;color:#536055}
+.seo-guides ul{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:.55rem;list-style:none;margin:0;padding:0}
+.seo-guides li a{display:flex;align-items:center;justify-content:space-between;padding:1rem;background:#fff;border:1px solid #e2e6df;border-radius:7px;text-decoration:none;color:#203326;gap:1rem}
+.seo-guides li a:hover{border-color:#506655}
+.detail-page{padding-top:4rem;padding-bottom:6rem}
+.detail-breadcrumb{font-size:.86rem;color:#526456;margin-bottom:2rem}
+.detail-breadcrumb a{color:inherit}
+.detail-eyebrow{font-size:.76rem;letter-spacing:.12em;text-transform:uppercase;font-weight:700;color:#55715a}
+.detail-heading{font-size:clamp(2.2rem,5vw,4.4rem);line-height:1.08;max-width:920px;margin:.5rem 0 1.2rem;letter-spacing:-.035em}
+.detail-lead{font-size:clamp(1.1rem,2vw,1.45rem);line-height:1.5;color:#465a48;max-width:760px}
+.detail-cols{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:2rem;margin:3.5rem 0}
+.detail-panel{border-top:1px solid #bdc9bd;padding-top:1.4rem}
+.detail-panel h2,.detail-work h2{font-size:1.6rem;margin-bottom:1rem}
+.detail-panel li{margin-bottom:.7rem;line-height:1.6}
+.detail-cards{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:1rem}
+.detail-card{background:#f1f4f0;padding:1.5rem;border:1px solid #dbe3d9;border-radius:8px}
+.detail-card h3{font-size:1.12rem;line-height:1.35;margin:.5rem 0}
+.detail-card p{color:#4a5e4c;line-height:1.6}
+.detail-card small{color:#536955;text-transform:uppercase;letter-spacing:.05em}
+.detail-card a{color:#244f34;text-underline-offset:3px}
+.detail-cta{display:flex;gap:1rem;align-items:center;flex-wrap:wrap;margin:3rem 0;padding:2rem;background:#e8ede6;border-radius:10px}
+.detail-cta a{display:inline-block;background:#263b2a;color:#fff;padding:.85rem 1.1rem;text-decoration:none;border-radius:5px}
+.detail-photo{display:block;width:100%;max-height:650px;object-fit:contain;background:#edf0ec;margin:2rem 0;border-radius:8px}
+.detail-disclaimer{color:#667567;font-size:.9rem;margin:2rem 0}
+@media(max-width:750px){.seo-guides ul,.detail-cols,.detail-cards{grid-template-columns:1fr}.detail-page{padding-top:2rem}.detail-cta{padding:1.25rem}}
